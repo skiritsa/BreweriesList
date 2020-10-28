@@ -60,5 +60,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Iowan_old_style.ttf</string>
+		<string>bitstream_iowan_old_style_bold_bt.ttf</string>
+	</array>
 </dict>
 </plist>

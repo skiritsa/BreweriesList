@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Iowan_old_style.ttf">
+            <string>IowanOldStyleBT-Roman</string>
+        </array>
+        <array key="bitstream_iowan_old_style_bold_bt.ttf">
+            <string>IowanOldStyleBT-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BreweriesCell" rowHeight="259" id="CIc-KU-6Pi" customClass="BreweriesCell" customModule="BreweriesList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="259"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CIc-KU-6Pi" id="6JL-xE-6ry">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfi-Hj-M6D">
+                        <rect key="frame" x="15" y="15" width="411" height="229"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-Sd-ZMD">
+                                <rect key="frame" x="10" y="15" width="391" height="154"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZ8-rh-clp">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="49.5"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Bold" family="IowanOldSt BT" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDi-kL-0mJ">
+                                        <rect key="frame" x="0.0" y="49.5" width="39" height="20"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="16"/>
+                                        <color key="textColor" red="0.54509803921568623" green="0.54509803921568623" blue="0.54509803921568623" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmN-Hj-bR6">
+                                        <rect key="frame" x="0.0" y="69.5" width="39" height="20"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="16"/>
+                                        <color key="textColor" red="0.54509803921568623" green="0.54509803921568623" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IED-vv-ibe">
+                                        <rect key="frame" x="0.0" y="89.5" width="41" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="17"/>
+                                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jI6-G0-u3U">
+                                        <rect key="frame" x="0.0" y="111" width="41" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="17"/>
+                                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgi-3y-X61">
+                                        <rect key="frame" x="0.0" y="132.5" width="41" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="17"/>
+                                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u53-Jy-qcf">
+                                <rect key="frame" x="10" y="184" width="125" height="35"/>
+                                <color key="backgroundColor" red="0.1767071486" green="0.53485316039999997" blue="0.01216963213" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="46j-b4-6w4"/>
+                                    <constraint firstAttribute="width" constant="125" id="HBh-9r-9rf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyleBT-Roman" family="IowanOldSt BT" pointSize="16"/>
+                                <state key="normal" title="Show on map">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="u53-Jy-qcf" firstAttribute="leading" secondItem="Cfi-Hj-M6D" secondAttribute="leading" constant="10" id="11z-Iq-hba"/>
+                            <constraint firstAttribute="bottom" secondItem="u53-Jy-qcf" secondAttribute="bottom" constant="10" id="1gc-uc-mxA"/>
+                            <constraint firstAttribute="trailing" secondItem="NZs-Sd-ZMD" secondAttribute="trailing" constant="10" id="5lV-hx-3Jh"/>
+                            <constraint firstItem="NZs-Sd-ZMD" firstAttribute="top" secondItem="Cfi-Hj-M6D" secondAttribute="top" constant="15" id="HUi-t1-Kqr"/>
+                            <constraint firstItem="u53-Jy-qcf" firstAttribute="top" secondItem="NZs-Sd-ZMD" secondAttribute="bottom" constant="15" id="MBk-5k-xuP"/>
+                            <constraint firstItem="NZs-Sd-ZMD" firstAttribute="leading" secondItem="Cfi-Hj-M6D" secondAttribute="leading" constant="10" id="cyk-76-DKT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cfi-Hj-M6D" firstAttribute="leading" secondItem="6JL-xE-6ry" secondAttribute="leading" constant="15" id="cTI-wh-9Cf"/>
+                    <constraint firstAttribute="trailing" secondItem="Cfi-Hj-M6D" secondAttribute="trailing" constant="15" id="hEI-89-Z4j"/>
+                    <constraint firstAttribute="bottom" secondItem="Cfi-Hj-M6D" secondAttribute="bottom" constant="15" id="ooR-9G-VZ0"/>
+                    <constraint firstItem="Cfi-Hj-M6D" firstAttribute="top" secondItem="6JL-xE-6ry" secondAttribute="top" constant="15" id="uMU-ZD-FOA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardView" destination="Cfi-Hj-M6D" id="6yz-04-OYt"/>
+                <outlet property="cityLabel" destination="IED-vv-ibe" id="yc0-8o-ZsV"/>
+                <outlet property="countryLabel" destination="aDi-kL-0mJ" id="XTU-iY-gkE"/>
+                <outlet property="phoneLabel" destination="jI6-G0-u3U" id="A21-E7-E9b"/>
+                <outlet property="stateLabel" destination="RmN-Hj-bR6" id="vzq-Fk-Ft5"/>
+                <outlet property="streetLabel" destination="jI6-G0-u3U" id="76Q-KO-9lo"/>
+                <outlet property="titleLabel" destination="uZ8-rh-clp" id="Tg7-uS-x7O"/>
+                <outlet property="websiteLabel" destination="Cgi-3y-X61" id="4Yb-Qx-COt"/>
+            </connections>
+            <point key="canvasLocation" x="126.81159420289856" y="-267.52232142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

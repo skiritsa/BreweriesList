@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		042570CD2548815B0073B608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570CC2548815B0073B608 /* AppDelegate.swift */; };
 		042570CF2548815B0073B608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570CE2548815B0073B608 /* SceneDelegate.swift */; };
-		042570D12548815B0073B608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570D02548815B0073B608 /* ViewController.swift */; };
+		042570D12548815B0073B608 /* BraweriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570D02548815B0073B608 /* BraweriesViewController.swift */; };
 		042570D42548815B0073B608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042570D22548815B0073B608 /* Main.storyboard */; };
 		042570D62548815C0073B608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042570D52548815C0073B608 /* Assets.xcassets */; };
 		042570D92548815C0073B608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042570D72548815C0073B608 /* LaunchScreen.storyboard */; };
@@ -19,6 +19,13 @@
 		042570F8254892770073B608 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570F7254892770073B608 /* NetworkDataFetcher.swift */; };
 		042570FC254899DF0073B608 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570FB254899DF0073B608 /* StoreManager.swift */; };
 		0425710025489E210073B608 /* Breweries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042570FF25489E210073B608 /* Breweries.swift */; };
+		04E4906325497B8900053E04 /* Iowan_old_style.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E4906225497B8900053E04 /* Iowan_old_style.ttf */; };
+		04E4906625497B9300053E04 /* bitstream_iowan_old_style_black_italic_bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E4906525497B9300053E04 /* bitstream_iowan_old_style_black_italic_bt.ttf */; };
+		04E4906D25497EC400053E04 /* BreweriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4906C25497EC400053E04 /* BreweriesCell.swift */; };
+		04E4907125497F1600053E04 /* BreweriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E4907025497F1600053E04 /* BreweriesCell.xib */; };
+		04E4907425497FAA00053E04 /* bitstream_iowan_old_style_bold_bt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E4907325497FAA00053E04 /* bitstream_iowan_old_style_bold_bt.ttf */; };
+		04E4907825499D9000053E04 /* BreweriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4907725499D9000053E04 /* BreweriesViewModel.swift */; };
+		04E4907C2549C5F400053E04 /* BreweriesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4907B2549C5F400053E04 /* BreweriesCellViewModel.swift */; };
 		9A9827AF3B47627A0DF59F27 /* Pods_BreweriesList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346B51E176711B874D2F9594 /* Pods_BreweriesList.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +33,7 @@
 		042570C92548815B0073B608 /* BreweriesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreweriesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042570CC2548815B0073B608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042570CE2548815B0073B608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		042570D02548815B0073B608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042570D02548815B0073B608 /* BraweriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraweriesViewController.swift; sourceTree = "<group>"; };
 		042570D32548815B0073B608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042570D52548815C0073B608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042570D82548815C0073B608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +44,13 @@
 		042570F7254892770073B608 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		042570FB254899DF0073B608 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		042570FF25489E210073B608 /* Breweries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breweries.swift; sourceTree = "<group>"; };
+		04E4906225497B8900053E04 /* Iowan_old_style.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iowan_old_style.ttf; sourceTree = "<group>"; };
+		04E4906525497B9300053E04 /* bitstream_iowan_old_style_black_italic_bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitstream_iowan_old_style_black_italic_bt.ttf; sourceTree = "<group>"; };
+		04E4906C25497EC400053E04 /* BreweriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesCell.swift; sourceTree = "<group>"; };
+		04E4907025497F1600053E04 /* BreweriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BreweriesCell.xib; sourceTree = "<group>"; };
+		04E4907325497FAA00053E04 /* bitstream_iowan_old_style_bold_bt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bitstream_iowan_old_style_bold_bt.ttf; sourceTree = "<group>"; };
+		04E4907725499D9000053E04 /* BreweriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesViewModel.swift; sourceTree = "<group>"; };
+		04E4907B2549C5F400053E04 /* BreweriesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesCellViewModel.swift; sourceTree = "<group>"; };
 		346B51E176711B874D2F9594 /* Pods_BreweriesList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreweriesList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0FFCA2E2455F78536BADD3 /* Pods-BreweriesList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreweriesList.debug.xcconfig"; path = "Target Support Files/Pods-BreweriesList/Pods-BreweriesList.debug.xcconfig"; sourceTree = "<group>"; };
 		7B7CE2CFB07E4B61F496071E /* Pods-BreweriesList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreweriesList.release.xcconfig"; path = "Target Support Files/Pods-BreweriesList/Pods-BreweriesList.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +92,9 @@
 				042570CC2548815B0073B608 /* AppDelegate.swift */,
 				042570CE2548815B0073B608 /* SceneDelegate.swift */,
 				042570E1254886BE0073B608 /* Services */,
-				042570D02548815B0073B608 /* ViewController.swift */,
+				04E4906925497E0E00053E04 /* BreweriesModule */,
 				042570D22548815B0073B608 /* Main.storyboard */,
+				04E4906025497B6F00053E04 /* Supporting Files */,
 				042570D52548815C0073B608 /* Assets.xcassets */,
 				042570D72548815C0073B608 /* LaunchScreen.storyboard */,
 				042570DA2548815C0073B608 /* Info.plist */,
@@ -122,6 +137,60 @@
 				042570FF25489E210073B608 /* Breweries.swift */,
 			);
 			path = RealmModels;
+			sourceTree = "<group>";
+		};
+		04E4906025497B6F00053E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E4906125497B7D00053E04 /* Fonts */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E4906125497B7D00053E04 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04E4906225497B8900053E04 /* Iowan_old_style.ttf */,
+				04E4906525497B9300053E04 /* bitstream_iowan_old_style_black_italic_bt.ttf */,
+				04E4907325497FAA00053E04 /* bitstream_iowan_old_style_bold_bt.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04E4906925497E0E00053E04 /* BreweriesModule */ = {
+			isa = PBXGroup;
+			children = (
+				04E4907625499D7B00053E04 /* ViewModel */,
+				04E4907A2549C5C100053E04 /* View */,
+			);
+			path = BreweriesModule;
+			sourceTree = "<group>";
+		};
+		04E4906B25497EB300053E04 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04E4906C25497EC400053E04 /* BreweriesCell.swift */,
+				04E4907025497F1600053E04 /* BreweriesCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04E4907625499D7B00053E04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04E4907725499D9000053E04 /* BreweriesViewModel.swift */,
+				04E4907B2549C5F400053E04 /* BreweriesCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04E4907A2549C5C100053E04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E4906B25497EB300053E04 /* Cell */,
+				042570D02548815B0073B608 /* BraweriesViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		16F49E01C1E4277B94293D74 /* Frameworks */ = {
@@ -203,6 +272,10 @@
 			files = (
 				042570D92548815C0073B608 /* LaunchScreen.storyboard in Resources */,
 				042570D62548815C0073B608 /* Assets.xcassets in Resources */,
+				04E4907425497FAA00053E04 /* bitstream_iowan_old_style_bold_bt.ttf in Resources */,
+				04E4907125497F1600053E04 /* BreweriesCell.xib in Resources */,
+				04E4906625497B9300053E04 /* bitstream_iowan_old_style_black_italic_bt.ttf in Resources */,
+				04E4906325497B8900053E04 /* Iowan_old_style.ttf in Resources */,
 				042570D42548815B0073B608 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +348,10 @@
 			files = (
 				042570F8254892770073B608 /* NetworkDataFetcher.swift in Sources */,
 				042570E725488B2F0073B608 /* NetworkService.swift in Sources */,
-				042570D12548815B0073B608 /* ViewController.swift in Sources */,
+				04E4907825499D9000053E04 /* BreweriesViewModel.swift in Sources */,
+				04E4907C2549C5F400053E04 /* BreweriesCellViewModel.swift in Sources */,
+				04E4906D25497EC400053E04 /* BreweriesCell.swift in Sources */,
+				042570D12548815B0073B608 /* BraweriesViewController.swift in Sources */,
 				042570E4254889280073B608 /* BreweryResponse.swift in Sources */,
 				042570CD2548815B0073B608 /* AppDelegate.swift in Sources */,
 				042570FC254899DF0073B608 /* StoreManager.swift in Sources */,

@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //swiftlint:disable force_try
     let realm = try! Realm()
     //swiftlint:enable force_try
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let storeManager = StoreManager(realm: realm)
         storeManager.updateDataFromInternet()
